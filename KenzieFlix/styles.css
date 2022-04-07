@@ -1,0 +1,174 @@
+body {
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #121214;
+    display: flex;
+    align-content: center;
+
+}
+
+.profiles {
+    display: flex;
+    flex-direction: flex-start;
+
+}
+
+ul {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    padding: 0%;
+    margin: auto;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 160px;
+    margin: 8px;
+}
+
+a {
+    width: 160px;
+    text-decoration: none;
+
+}
+
+li:hover p {
+    color: rgb(221, 221, 221);
+    transition: all .1s ease-in-out;
+}
+
+figure {
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 2.5px solid transparent;
+}
+
+li:hover figure {
+    border: 2.5px solid white;
+
+}
+
+img {
+    display: flex;
+    width: 160px;
+    border-radius: 5%;
+    border: white;
+    border-width: 1.5px;
+
+}
+
+
+/* .dark {
+    background: url(img/formart-nouser-hover.png);
+    
+} */
+
+
+
+/*.dark {
+    display: none;
+}
+
+img:hover .soft {
+    display: block;
+
+}*/
+
+
+li:hover img {
+    transform: scale(1.1);
+    transition: all .3s ease-in-out;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #9C9C9C;
+
+}
+
+/* .dark {
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 2.5px solid transparent;
+    opacity: 1;
+    width: 160px;
+    height: 160px;
+}
+ */
+
+.hover {
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5%;
+    border: 2.5px solid transparent;
+    opacity: 0;
+}
+
+.dark:hover {
+    display: 0;
+}
+
+.hover:hover {
+    opacity: 1;
+}
+
+/*p:hover {
+
+    transition: all .3s ease-in-out;
+
+}*/
+
+button {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-content: center;
+    background-color: #121214;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1.5px;
+}
+
+button {
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #fff;
+    /* Green */
+    color: black;
+}
