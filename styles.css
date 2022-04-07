@@ -169,6 +169,5 @@ button {
 
 button:hover {
     background-color: #fff;
-    /* Green */
     color: black;
 }
